@@ -1,5 +1,5 @@
 import requests
-from config import get_config, API_KEY, DEFAULT_LOCATION
+from weather.config import get_config, API_KEY, DEFAULT_LOCATION
 
 
 def get_5_day(location, api_key):

@@ -1,7 +1,7 @@
 from itertools import groupby
 
 from weather.openweather import get_default_data
-from weather_service import get_messaging_forecast
+from weather.weather_service import get_messaging_forecast
 
 def main():
     data = get_default_data()

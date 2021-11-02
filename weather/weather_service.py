@@ -41,8 +41,7 @@ def build_forecast(data_points):
 def grouping_to_dict(grouping, group_mapper: Callable[[Iterable[Weather]], Any]=list):
     out = {}
     for key, grp in grouping:
-        group = list(grp)
-        out[key] = group_mapper(group)
+        out[key] = group_mapper(grp)
     return out
 
 
