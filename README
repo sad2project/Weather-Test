@@ -2,4 +2,4 @@ Requires Python 3.9+
 Requires requests library
 Requires python-dotenv library
 
-To run, go to project directory andbrun python -m weather
+To run, go to project directory and run python -m weather
